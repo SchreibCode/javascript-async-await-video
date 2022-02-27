@@ -20,26 +20,30 @@ const promiseToGiveBookAdvice = new Promise((resolve, reject) => {
 /*
  * So wartet man auf die Promises mit then und catch
  */
-function mitThenAufPromisesWarten() {
+
+function aufPromiseMitThenUndCatchWarten() {
     promiseToGiveBook
         .then((message) => {
             console.log(message);
             return promiseToGiveBookAdvice;
         })
-        .then((message) => console.log(message))
+        .then((message) => {
+            console.log(message);
+        })
         .catch((error) => console.log(error));
 }
 
-//mitThenAufPromisesWarten();
+//aufPromiseMitThenUndCatchWarten();
 
 /*
  * So wartet man auf die Promises mit async await
  */
 
-async function mitAsyncAwaitAufPromisesWarten() {
+async function aufPromiseMitAsyncAwaitWarten() {
     try {
-        const message = await promiseToGiveBook;
-        console.log(message);
+        const book = await promiseToGiveBook;
+        console.log(book);
+
         const advice = await promiseToGiveBookAdvice;
         console.log(advice);
     } catch (error) {
@@ -47,4 +51,4 @@ async function mitAsyncAwaitAufPromisesWarten() {
     }
 }
 
-mitAsyncAwaitAufPromisesWarten();
+aufPromiseMitAsyncAwaitWarten();

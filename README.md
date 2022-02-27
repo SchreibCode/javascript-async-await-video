@@ -1,10 +1,10 @@
-<img src="https://github.com/SchreibCode/<repository-name>/blob/main/img/<img-name>" width="450" alt="Youtube Thumbnail"/>
+<img src="https://github.com/SchreibCode/javascript-async-await-video/blob/main/img/javascript-async-await-2.jpg" width="450" alt="Youtube Thumbnail"/>
 
-# Thema
+# JavaScript Async Await
 
-- In diesem Repository findest du den Code zum Video: "Videotitel".
+- In diesem Repository findest du den Code zum Video: "Lern JavaScript Async Await in 8 Minuten - Deutsches Tutorial".
 - Falls du das Video noch nicht gesehen hast kannst du es hier: 
-[Link zum Video](https://www.youtube.com) anschauen.
+[Link zum Video](https://youtu.be/Fa54vhDSsxs) anschauen.
 
 ## Wie kriege ich den Code?
 
